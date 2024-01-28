@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- Cabeça (Configurações)-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titulo que fica na guia da página -->
     <title>Semana do Zero ao Programador Contratado - Landing Page GTA</title>
+    <!-- Ícone que fica na guia da página (Pequena figura) -->
     <link rel="shortcut icon" href="src/images/favicon.png" type="image/x-icon">
+    <!-- Link para ligar o HTML a url da font "CHALET" e poder usar na página -->
     <link href="https://fonts.cdnfonts.com/css/chalet" rel="stylesheet">
-
+    <!-- Links para ligar o HTML com o CSS -->
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/fonts.css">
-    
+    <link rel="stylesheet" href="./src/css/responsive.css"> 
 </head>
 
+<!-- Corpo (Página)-->
 <body>
+    <!-- Cabeçalho da página -->
     <header class="cabecalho">
         <div class="logo">
             <img src="./src/images/logo-rockstar.svg" alt="Logo Rockstar Games" />
@@ -31,11 +37,14 @@
                 </li>
                 <li>
                     <a href="https://support.rockstargames.com/categories/200013306" target="_blank">Suporte</a>
+                    <!-- Ícone de link (Que indica que ao apertar, vai sair para outra guia) -->
                     <img src="./src/images/icone-link.svg" alt="Icone de link de suporte">
                 </li>
             </ul>
         </nav>
     </header>
+
+    <!-- Corpo da página -->
     <main class="home" id="home">
         <img class="imagem-fundo" src="./src/images/bg-main.png"
             alt="Rapaz de moletom laranja ao lado de um carro amarelo">
@@ -81,9 +90,8 @@
                     </li>
                 </ul>
             </div>
-            <button class="btn-plataforma">
-                Selecione a plataforma
-
+            <!-- Botão -->
+            <button class="btn-plataforma">Selecione a plataforma
                 <ul class="plataformas">
                     <li>
                         <img src="./src/images/logo-ps5.svg" alt="Logo Playstation 5">
@@ -104,6 +112,8 @@
             </button>
         </div>
     </section>
+    <!-- linkando o JavaScript -->
+    <script src="./src/js/index.js"></script>
 </body>
 
 </html>
